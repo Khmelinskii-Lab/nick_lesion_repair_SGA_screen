@@ -2,14 +2,14 @@
 
 Article title: "Genetic requirements for repair of lesions caused by single genomic ribonucleotides in S phase"
 
-Contributing authors: Mr Matthias Tonn , Dr Vanessa Kellner , Dr Jia Jun Fung , Dr Arianna Lockhart , Olga Vydzhak , Thomas Juretschke , Dr Stefanie Möckel , Professor Petra Beli , Dr Anton Khmelinskii , Professor Brian Luke
-
+Authors: Natalie Schindler*,#, Matthias Tonn*, Vanessa Kellner, Jia Jun Fung, Arianna Lockhart, Olga Vydzhak, Thomas Juretschke, Stefanie Möckel, Petra Beli, Anton Khmelinskii, Brian Luke#
+(*these authors contributed equally, # corresponding authors)
 
 ## Information
 
-This repository contains the data and analysis performed for the SGA screen conducted for the article named above.
+This repository contains the data and analysis performed for the SGA screen conducted in the article named above.
 
-The "docs" folder contains all necessary data that is needed to run the R markdown file used to perform the analysis of the SGA screen carried out.
+The "docs" folder contains all the data needed to run the R markdown file used to perform the analysis of the SGA screen.
 The R markdown file needs to be in the same folder as all .rda and .jpg files.
 
 The code was built on R version 3.5.0 (2018-04-23).
@@ -25,6 +25,6 @@ https://htmlpreview.github.io/?https://github.com/Khmelinskii-Lab/nick_lesion_re
 
 ## Contact
 
-Please direct any questions regarding the article to the corresponding author, Dr Natalie Schindler (natalie.schindler@uni-mainz.de)
+Please direct any questions regarding the article to the corresponding authors, Natalie Schindler (natalie.schindler@uni-mainz.de) and Brian Luke (b.luke@imb-mainz.de)
 
-Please direct any questions regarding the code to Dr Jia Jun Fung (j.fung@imb-mainz.de)
+Please direct any questions regarding the code to Jia Jun Fung (j.fung@imb-mainz.de) and Anton Khmelinskii (a.khmelinskii@imb-mainz.de)  
