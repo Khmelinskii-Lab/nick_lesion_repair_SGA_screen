@@ -22,8 +22,6 @@ This document contains the workflow for analysis of SGA screens performed with c
 Here, several functions and R packages that are necessary for the analysis are loaded.
 
 ```{r Setup 1, echo = FALSE}
-setwd("C:/Users/jiajfung/John/20200516_Matthias_Screen/Publication")
-
 knitr::opts_chunk$set(echo = TRUE, fig.width = 22, fig.height = 12,
                       warning = FALSE, message = FALSE, error = TRUE)
 
