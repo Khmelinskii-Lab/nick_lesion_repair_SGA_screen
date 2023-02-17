@@ -1386,7 +1386,7 @@ df_temp_FinalwoBorder_Anno <- left_join(photoData_FinalwoBorder, KOanno,
 # Histogram
 ggplot(data = df_temp_FinalwoBorder_Anno) +
   geom_histogram(aes(size), bins = 100) +
-  facet_wrap(aes(Query)) +
+  facet_wrap(vars(Query)) +
   labs(x = "Colony Size (Raw)",
        y = "Count",
        title = "Raw colony size by query",
@@ -1400,7 +1400,7 @@ The average colnoy size for the 3 queries appears to be smaller than the wild ty
 ggplot(data = (df_temp_FinalwoBorder_Anno %>%
                            select(plate, well, size, circularity, ORF, Query))) +
     geom_boxplot(aes(Query, size)) +
-    facet_wrap(aes(plate)) +
+    facet_wrap(vars(plate)) +
     theme(axis.text.x = element_text(angle = -45)) +
     labs(x = "Query",
          y = "Colony Size (Raw)",
